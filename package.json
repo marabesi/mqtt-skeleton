@@ -1,0 +1,23 @@
+{
+  "name": "mqtt-skeleton",
+  "version": "0.0.1",
+  "description": "Easy way to get start using MQTT (nodejs)",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marabesi/mqtt-skeleton"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "mqtt": "^2.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
