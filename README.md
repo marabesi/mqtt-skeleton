@@ -27,7 +27,7 @@ npm install
 
 3. Configure the environment variables
 
-Make sure to have a MQTT protocol up and running (can be a private server, or cloud like [mqttcloud.com](https://www.cloudmqtt.com/)). With that in mind you should have at least the following credentials: host, user, password and port.
+Make sure to have a MQTT protocol up and running (can be a private server, or cloud like [cloudmqtt.com](https://www.cloudmqtt.com/)). With that in mind you should have at least the following credentials: host, user, password and port.
 
 The next step is create a `.env` file in the root of your cloned folder, and replace the values shown below with the given by your MQTT provider.
 
