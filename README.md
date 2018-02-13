@@ -7,6 +7,10 @@ The project has the following dependencies so far:
 * [dotenv](https://www.npmjs.com/package/dotenv)
 * [mqtt](https://www.npmjs.com/package/mqtt)
 
+Development dependencies:
+
+* [nodemon](https://www.npmjs.com/package/nodemon)
+
 ## Setting up
 
 1. Clone this repository
@@ -21,7 +25,7 @@ git clone https://github.com/marabesi/mqtt-skeleton/ && cd mqtt-skeleton
 npm install
 ``
 
-## Configure the environment variables
+3. Configure the environment variables
 
 Make sure to have a MQTT protocol up and running (can be a private server, or cloud like [mqttcloud.com](https://www.cloudmqtt.com/)). With that in mind you should have at least the following credentials: host, user, password and port.
 
@@ -33,4 +37,18 @@ MQTT_USER=myuser
 MQTT_PASSWORD=mypassword
 MQTT_PORT=myport
 MQTT_TOPIC=/mytopic
+```
+
+4. Decide which environment you would like to run, development (with nodemon) or directly with node.
+The following starts the application using nodejs comman, behind the scenes npm is running `node ./index.js`.
+
+```
+npm run start
+```
+
+The second option is to use nodemon, which avois killing the script and starting it again everytime you
+change something in the code.
+
+```
+npm run nodemon
 ```
