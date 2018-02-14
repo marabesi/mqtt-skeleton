@@ -1,3 +1,5 @@
+![NODE + MQTT](https://preview.ibb.co/diijQn/node_mqtt.png)
+
 # mqtt-skeleton
 
 Easy way to get start using MQTT (nodejs). The main idea of the repository is to give a scafolding of everything you might need while using MQTT and nodejs.
