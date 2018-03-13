@@ -4,7 +4,7 @@
   "description": "Easy way to get start using MQTT (nodejs)",
   "main": "index.js",
   "scripts": {
-    "nodemon": "nodemon ./index.js",
+    "nodemon": "concurrently --kill-others 'nodemon ./index.js' 'http-server ./hivemq-mqtt-web-client'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./index.js"
   },
@@ -15,7 +15,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^3.5.1",
     "dotenv": "^4.0.0",
+    "http-server": "^0.11.1",
     "mqtt": "^2.15.1"
   },
   "devDependencies": {
