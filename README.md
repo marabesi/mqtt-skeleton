@@ -8,6 +8,7 @@ The project has the following dependencies so far:
 
 * [dotenv](https://www.npmjs.com/package/dotenv)
 * [mqtt](https://www.npmjs.com/package/mqtt)
+* [concurrently](https://www.npmjs.com/package/concurrently)
 
 Development dependencies:
 
@@ -53,4 +54,17 @@ change something in the code.
 
 ```
 npm run nodemon
+```
+
+## Hivemq Dashboard
+
+Often we want to see what is going on in our MQTT server, know which messages are being sent,
+who is connected to it and sometimes push new messages to the queue without coding a script
+to it. For that reason, this project uses the Hivemq Dashboard, an open source project
+that allows us to see staticts about the MQTT server.
+
+To access the dashboard, after start running the server access the 8080 port.
+
+```
+open http://localhost:8080
 ```
