@@ -1,0 +1,7 @@
+{
+  "name": "MQTT skeleton",
+  "description": "A nodeJS app using MQTT and a dashboard",
+  "repository": "https://github.com/marabesi/mqtt-skeleton",
+  "logo": "https://camo.githubusercontent.com/fd9b3b9cbdcfbf36221d88c4d086dcc56029a38f/68747470733a2f2f707265766965772e6962622e636f2f6469696a516e2f6e6f64655f6d7174742e706e67",
+  "keywords": ["node", "mqtt", "dashboard", "hivemq"]
+}
